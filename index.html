@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gradient Picker!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Gradient Picker!</h1>
+	<p>Choose your background</p>
+	<input class="color1" type="color" name="color1" value="#ff00ff">
+	<input class="color2" type="color" name="color1" value="#ffff00">
+	<select id="direction">
+		<option value="to right">To Right</option><option value="to bottom">To Bottom</option>
+		<option value="to bottom right">Diagonally Right</option>
+		<option value="to bottom left">Diagonally Left</option>
+		<option value="radial">Radial</option>
+	</select>
+	<button id="randomize">Roll Random!</button>
+	<p>Current Background:</p>
+	<h3>linear-gradient(to right, #ff00ff,#ffff00);</h3>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
